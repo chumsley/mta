@@ -1,0 +1,7 @@
+{
+    "require": {
+        "slim/slim": "^3.0",
+        "justinrainbow/json-schema": "~2.0",
+        "league/json-guard": "^0.3.3"
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"title" :	"/course/update POST request",
+	"$schema" :	"v1",
+	"description" :	"POST /course/update request",
+	"type" :	"object",
+	"required" :	["courseID"],
+	"additionalProperties" :	false,
+	"properties" :	{
+			"courseID" :	{"type" : "int"},
+			"name" :	{"type" : "string"},
+   			"displayName" :	{"type" : "string"},
+			"authType" :	{"type" : "string"},
+			"registrationType" :	{"type" : "string"},
+			"browsable" :	{"type" : "bool"}
+		}
+}

@@ -1,0 +1,17 @@
+{
+	"title" :	"/course/create POST response",
+	"$schema" :	"v1",
+	"description" :	"POST /course/create response",
+	"type" :	"object",
+	"required" :	["courseID", "name", "displayName", "browsable", "authType", "registrationType"],
+	"additionalProperties" :	false,
+	"properties" :	{
+			"courseID" :	{"type" : "int"},
+			"name" :	{"type" : "string"},
+   			"displayName" :	{"type" : "string"},
+			"authType" :	{"type" : "string"},
+			"registrationType" :	{"type" : "string"},
+			"browsable" :	{"type" : "bool"},
+			"error" :	{"type" : "string"}
+		}
+}

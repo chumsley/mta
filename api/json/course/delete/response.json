@@ -1,0 +1,11 @@
+{
+	"title" :	"course/delete POST response",
+	"$schema" :	"v1",
+	"description" :	"POST /course/delete response",
+	"type" :	"object",
+	"required" :	[],
+	"additionalProperties" :	false,
+	"properties" :	{
+			"error" :	{"type" : "string"}
+		}
+}

@@ -1,0 +1,11 @@
+{
+	"title" :	"course/delete POST request",
+	"$schema" :	"v1",
+	"description" :	"POST /course/delete request",
+	"type" :	"object",
+	"required" :	["courseID"],
+	"additionalProperties" :	false,
+	"properties" :	{
+			"courseID" :	{"type" : "integer"}
+		}
+}

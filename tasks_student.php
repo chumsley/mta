@@ -157,6 +157,7 @@ foreach($items as $item)
 	$content .= "</div>";
 }
 
+/*
 $status = "Supervised"; $reviewerAverage = "--"; $threshold = ""; $minimumReviews = "";
 if($latestCalibrationAssignment != NULL)
 {
@@ -253,5 +254,6 @@ foreach($assignments as $assignment)
 		$content .= "</div>";
 	}
 }
+*/
 
 ?>

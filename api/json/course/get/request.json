@@ -1,0 +1,11 @@
+{
+	"title" :	"course/get GET request",
+	"$schema" :	"v1",
+	"description" :	"GET /course/get request",
+	"type" :	"object",
+	"required" :	[],
+	"additionalProperties" :	false,
+	"properties" :	{
+			"courseID" :	{"type" : "integer"}
+		}
+}
